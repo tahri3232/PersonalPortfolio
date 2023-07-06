@@ -1,0 +1,24 @@
+.main{
+    background-color: #222222;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    color:azure;
+}
+
+.body{
+    height:100%;
+}
+
+.sidebar{
+    background-color: black;
+    width:100%;
+}
+
+.body{
+background-image: url("../../src/assets/images/BackgroundTahirApp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

@@ -1,0 +1,59 @@
+img{
+    margin-top: 25px;
+    height:110px
+}
+
+.headingName{
+    color:azure;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.headingProfession{
+    color:darkgrey;
+    text-align: center;
+}
+
+.navList{
+    margin-top:50%;
+}
+
+ul{
+    padding: 0%;
+    border-top: 1px solid grey;
+}
+ 
+li{
+    list-style: none;
+    color:darkgrey;
+    padding:10px;
+    background-color: #111111;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    /* position:fixed;
+    bottom:0;
+    width:10%; */
+}
+
+
+.social-span{
+    background-color: aliceblue;
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+
+li:hover{
+    color:azure
+}
+
+.custom-link{
+    text-decoration: none;
+}
