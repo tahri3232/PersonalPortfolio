@@ -10,14 +10,13 @@ const MainComponent=()=>{
     return (
       <>
         <div className="main">
-
-          <BrowserRouter>
+          <BrowserRouter basename="/PersonalPortfolio">
             <SideBar />
             <Routes>
-              <Route path="/" element={<Body></Body>} />
               <Route path="/contact" element={<Contact></Contact>} />
               <Route path="/skills" element={<MySkills></MySkills>} />
               <Route path="/work" element={<MyWork></MyWork>} />
+              <Route path="/home" element={<Body></Body>} />
             </Routes>
           </BrowserRouter>
         </div>
