@@ -16,7 +16,7 @@ const MainComponent=()=>{
               <Route path="/contact" element={<Contact></Contact>} />
               <Route path="/skills" element={<MySkills></MySkills>} />
               <Route path="/work" element={<MyWork></MyWork>} />
-              <Route path="/home" element={<Body></Body>} />
+              <Route path="/" element={<Body></Body>} />
             </Routes>
           </BrowserRouter>
         </div>

@@ -23,7 +23,7 @@ const SideBar =()=>{
 
             <div className="navList">
               <ul>
-                <Link to="/home" className="custom-link">
+                <Link to="/" className="custom-link">
                   <li>Home</li>
                 </Link>
                 <Link to="/skills" className="custom-link">
